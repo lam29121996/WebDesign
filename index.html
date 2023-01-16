@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Demo Webpage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section id="indexSection">
+        <div class="navbar">
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a onclick="document.getElementById('indexSection').scrollIntoView({behavior: 'smooth'});">Home</a></li>
+                <li><a onclick="document.getElementById('aboutSection').scrollIntoView({behavior: 'smooth'});">About</a></li>
+                <li><a onclick="document.getElementById('contactSection').scrollIntoView({behavior: 'smooth'});">Contact</a></li>
+                <li><a onclick="document.getElementById('businessSection').scrollIntoView({behavior: 'smooth'});">Business</a></li>
+                <li><a onclick="document.getElementById('partnershipSection').scrollIntoView({behavior: 'smooth'});">Partnership</a></li>
+            </ul>
+        </div>
+        <div class="content" id="indexContent">
+            <h1>DESIGN YOUR WEBSITE</h1>
+            <p>xxxxxxxxx<br>yyyyy</p>
+            <div>
+                <button type="button"><span></span>Watch more</button>
+                <button type="button"><span></span>Subscribe</button>
+            </div>
+        </div>
+    </section>
+    <section id="aboutSection">
+        <div class="content" id="aboutContent">
+            <h1>About us</h1>
+            <p>We are ...</p>
+        </div>
+    </section>
+    <section id="contactSection">
+        <div class="content" id="contactContent">
+            <h1>Contact</h1>
+            <p>Email: xxxxxxxxx@gmail.com<br>Tel: xxxxxxxx</p>
+        </div>
+    </section>
+    <section id="businessSection">
+        <div class="content" id="businessContent">
+            <h1>Business</h1>
+            <p>Our business ...<br></p>
+        </div>
+    </section>
+    <section id="partnershipSection">
+        <div class="content" id="partnershipContent">
+            <h1>Partnership</h1>
+            <p>Our partners ...<br></p>
+        </div>
+    </section>
+
+    <script src="js/hello.js"></script>
+</body>
+
+</html>
